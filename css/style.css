@@ -56,7 +56,7 @@
 }
 
 .hero{
-    max-width: 120rem;
+    max-width: 130rem;
     margin: 0 auto;
     padding: 0 3.2rem;
     display: grid;
@@ -302,16 +302,17 @@
     width: 6.4rem;
     border-radius: 50%;
     margin-bottom: 1.2rem;
+    column-gap: 8rem;
 }
 
 .testimonial-text{
-    font-size: 1.6rem;
-    line-height: 1.6;
-    margin-bottom: 1.4rem;
+    font-size: 1.8rem;
+    line-height: 1.8;
+    margin-bottom: 1.6em;
 }
 
 .testimonial-name{
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     color: #6f6f6f;
 }
 
