@@ -1,7 +1,9 @@
-//set current year
-const yearEl = document.querySelector(".year");
-const currentYear = new Data().getFullYear();
-yearEl.textContent = currentYear;
+console.log("Hello world!");
+
+const myName = "Jonas Schmedtmann";
+const h1 = document.querySelector(".heading-primary");
+console.log(myName);
+console.log(h1);
 
 ///////////////////////////////////////////////////////////
 // Smooth scrolling animation
