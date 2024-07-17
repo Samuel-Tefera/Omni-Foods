@@ -9,7 +9,7 @@ html {
 }
 
 body{
-    font-family: sans-serif;
+    font-family: 'Rubik', sans-serif;
     line-height: 1;
     font-weight: 400;
     color: #555;
@@ -30,7 +30,7 @@ body{
 }
 
 .heading-primary{
-    font-size: 5.2rem;
+    font-size: 4.6rem;
     font-weight: 700;
     line-height: 1.05;
     color: #333;
@@ -49,6 +49,7 @@ body{
     display: inline-block;
     text-decoration: none;
     font-size: 2rem;
+    font-weight: 600;
     padding: 1.6rem 3.2rem;
     border-radius: 9px;
     transition: all 0.3s;
