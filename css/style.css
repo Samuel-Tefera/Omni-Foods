@@ -16,7 +16,7 @@
 .main-nav-list{
     list-style: none;
     display: flex;
-    gap: 3.2rem;
+    gap: 4.8rem;
     align-items: center;
 }
 
@@ -296,6 +296,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 4.8rem;
+    columns: 8rem;
 }
 
 .testimonial-img{

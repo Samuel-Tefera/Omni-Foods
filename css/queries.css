@@ -1,3 +1,5 @@
+/* Bellow 1344px (Smaller Desktops) */
+
 @media (max-width: 84em){
     .hero{
         max-width: 120rem;
@@ -8,5 +10,40 @@
     .gallery{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Bellow 1200px (Land scape Tablets) */
+
+@media(max-width: 75em){
+    .grid{
+        column-gap: 4.8rem;
+        row-gap: 6.4rem;
+    }
+
+    html{
+        font-size: 56.25%;
+    }
+    .heading-secondary{
+        font-size: 3.6rem;
+    }
+    .heading-tertiary{
+        font-size: 2.4rem;
+    }
+
+    .header{
+        padding: 0 3.2rem;
+    }
+
+    .hero{
+        gap: 4.8rem;
+    }
+
+    .main-nav-list{
+        gap: 3.2rem;
+    }
+
+    .testimonials-container{
+        padding: 3.2rem;
     }
 }
