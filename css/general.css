@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+*:focus{
+    outline: none;
+    box-shadow: 0 0 0 0.8rem rgba(232, 129, 38, 0.5);
+}
+
 html {
     font-size: 62.5%;
 }
@@ -42,6 +47,10 @@ body{
 
 .grid--4-cols{
     grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols{
+    grid-template-columns: repeat(5, 1fr);
 }
 
 .grid--center-v{
