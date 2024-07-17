@@ -67,6 +67,24 @@
     display: none;
 }
 
+/* Sticky Naviagtion */
+.sticky .header{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 8rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: rgba(255, 255, 255, 0.97);
+    z-index: 999;
+    box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
+}
+
+.sticky .section-hero {
+  margin-top: 9.6rem;
+}
+
 /* Hero section */
 
 .section-hero{
@@ -590,7 +608,6 @@
 }
 
 .address{
-    font-size: 1.4rem;
     margin-bottom: 2.4rem;
 }
 
