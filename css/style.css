@@ -29,6 +29,35 @@ body{
     height: 2.2rem;
 }
 
+/* Navigation */
+.main-nav-list{
+    list-style: none;
+    display: flex;
+    gap: 3.2rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited{
+    text-decoration: none;
+    display: inline-block;
+    color: #333;
+    font-weight: 500;
+    font-size: 1.8rem;
+    transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active{
+    color: #cf711f;
+}
+
+.nav-cta:link
+.nav-cta:visited{
+    padding: 1.6rem 3.2rem;
+    border-radius: 9px;
+    color: #fff;
+}
+
 /* Hero section */
 
 .section-hero{
