@@ -302,7 +302,14 @@
 /* Testimonials Section */
 
 .section-testimonials{
-    padding: 9.6rem 0;
+    background-color: #fdf2e9;
+    display: grid;
+    grid-template-columns: 55fr 45fr;
+    align-items: center;
+}
+
+.testimonials-container{
+    padding: 9.6rem;
 }
 
 .testimonials{
@@ -318,12 +325,33 @@
 }
 
 .testimonial-text{
-    font-size: 1.8rem;
-    line-height: 1.8;
-    margin-bottom: 1.6rem;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    margin-bottom: 1.4rem;
 }
 
 .testimonial-name{
-    font-size: 1.6rem;
-    color: #777;
+    font-size: 1.4rem;
+    color: #6f6f6f;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.6rem;
+    padding: 1.6rem;
+}
+
+.gallery-item{
+    overflow: hidden;
+}
+
+.gallery-item img{
+    display: block;
+    width: 100%;
+    transition: all 0.4s;
+}
+
+.gallery-item img:hover{
+    transform: scale(1.1);
 }
